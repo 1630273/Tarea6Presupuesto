@@ -33,22 +33,7 @@
         <div id="print-area">
              <div class="row pad-top font-big">
                
-							  <div class="col-lg-4 col-md-4 col-sm-4">
-                  <a href="https://obedalvarado.pw/" target="_blank">  <img src="assets/img/logo.png" alt="Logo sistemas web" /></a>
-                </div>
-                
-								<div class="col-lg-4 col-md-4 col-sm-4">
-                    <strong>E-mail : </strong> <?php echo $rw['email'];?>
-                    <br />
-                    <strong>Teléfono :</strong> <?php echo $rw['telefono'];?> <br />
-										<strong>Sitio web :</strong> <?php echo $rw['web'];?> 
-                   
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4">
-                    <strong><?php echo $rw['nombre_comercial'];?>  </strong>
-                    <br />
-                    Dirección : <?php echo $rw['direccion'];?> 
-                </div>
+						 <a href="../home.php" 		 <button type="button" class="btn btn-info btn-sm" ><span class="glyphicon glyphicon-home"></span> Regresar al menu</button></a>
 
                </div>
           

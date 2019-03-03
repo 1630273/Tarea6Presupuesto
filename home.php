@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--
 This is a starter template page. Use this page to start your new project from
@@ -214,7 +215,7 @@ desired effect
                   <a href="#" class="btn btn-default btn-flat">Profile</a>
                 </div>
                 <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                  <a href="login.php" class="btn btn-default btn-flat">Sign out</a>
                 </div>
               </li>
             </ul>
@@ -261,8 +262,8 @@ desired effect
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="Cliente.php"><i class="fa fa-user"></i> <span>Clientes</span></a></li>
-        <li><a href="../presupuesto"><i class="fa fa-table"></i> <span>Presupuesto</span></a></li>
+        <li class="active"><a href="CRUD/index.php"><i class="fa fa-user"></i> <span>Clientes</span></a></li>
+        <li><a href="presupuesto/index.php"><i class="fa fa-table"></i> <span>Presupuesto</span></a></li>
        
       </ul>
       <!-- /.sidebar-menu -->
@@ -304,7 +305,7 @@ desired effect
             <div class="icon">
               <i class="ion ion-person-add"></i>
             </div>
-            <a href="Cliente.php" class="small-box-footer">
+            <a href="CRUD/index.php" class="small-box-footer">
               More info <i class="fa fa-arrow-circle-right"></i>
             </a>
           </div>
@@ -321,7 +322,7 @@ desired effect
             <div class="icon">
               <i class="ion ion-stats-bars"></i>
             </div>
-            <a href="../presupuesto" class="small-box-footer">
+            <a href="presupuesto/index.php" class="small-box-footer">
               More info <i class="fa fa-arrow-circle-right"></i>
             </a>
           </div>
